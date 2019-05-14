@@ -1,0 +1,7 @@
+Reference: files.mead.io/2H3s0y3I222k
+
+1.  Setup default state object.
+2.  Component rendered with default state values. (implicit)
+3.  Change state based on event.
+4.  Re-render component using new state values. (implicit)
+5.  Start again at 3.  

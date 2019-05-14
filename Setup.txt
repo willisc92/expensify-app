@@ -1,0 +1,27 @@
+// SETUP
+// Install Node.js from nodejs.org
+// Use "npm install -g yarn" to install yarn globally
+// Use "live-server public" to run server after installing globally with npm install -g live-server
+// Use "npm install -g babel-cli@6.24.1" in console to install babel globally       
+// Use "yarn add babel-preset-react@6.24.1 babel-preset-env@1.5.2" to install local presets.                                                                         
+// Use "yarn install" in console to reinstall dependencies.  
+// Use "babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch" to automatically compile src/app.js into scripts/app.js with Node.
+
+// SWITCH to WEBPACK
+// Uninstall global dependencies: "npm uninstall -g babel-cli live-server"
+// Reinstall local dependencies: "yarn add live-server babel-cli@6.24.1"
+// Install webpack locally: "yarn install webpack@3.1.0"
+// Create webpack config file "webpack.config.js" with input/output specified
+// Add scripts as a json object to package.json, with command lines used previously values in as key-value pairs.  
+// Run scripts in command line using: "yarn run serve" and "yarn run build"
+// When using dev-server, use "yarn run dev-server"
+
+// STEPS TO IMPORT MODULES FROM NPM
+// 1) Install using "yarn add module-name"
+// 2) Import the module (check documentation)
+// 3) Use
+
+// CHANGING TO ES6 CLASS PROPERTIES
+// 1) Install the plugin "yarn add babel-puglin-transform-class-properties@6.24.1"
+// 2) Add to .babelrc:     "plugins": ["transform-class-properties"]
+// 3) Can now create class properties without constructor and create user functions that do not break this binding.
