@@ -1,7 +1,6 @@
 import React from 'react';
 import moment from 'moment';
 import { SingleDatePicker } from 'react-dates'; // See AirBNB react-dates for reference on use
-import 'react-dates/lib/css/_datepicker.css';
 
 class ExpenseForm extends React.Component {
     constructor(props) {
