@@ -21,3 +21,5 @@ cd expensify
 heroku create app name
 git remote - See remote repos. 
 
+#To set heroku production env variables:
+heroku config:set <<key:value pairs (space separated)>>
