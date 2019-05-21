@@ -1,14 +1,8 @@
 import * as firebase from 'firebase'; 
 
 const firebaseConfig = {
-    apiKey: "AIzaSyAJ4zm3yBeWeoB2lzr8tohtT6soxHX5e3Y",
-    authDomain: "wc-expensify.firebaseapp.com",
-    databaseURL: "https://wc-expensify.firebaseio.com",
-    projectId: "wc-expensify",
-    storageBucket: "wc-expensify.appspot.com",
-    messagingSenderId: "672419787534",
-    appId: "1:672419787534:web:da3215ad2fefd198"
-  };
+    // Take from firebase database config for your app.
+};
 
 firebase.initializeApp(firebaseConfig);
 
