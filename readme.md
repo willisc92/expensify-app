@@ -13,9 +13,8 @@ heroku open - Launch in browser
 download heroku CLI - https://devcenter.heroku.com/articles/heroku-cli
 login from command prompt - heroku login
 
-# To clone an existing repo:
-clone the repo - heroku git:cline -a wc-expensify
-cd expensify
+# To set remote to existing repo:
+heroku git:remote -a wc-expensify
 
 # To create a new heroku app (adds new git remote to local repository):
 heroku create app name
