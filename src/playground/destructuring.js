@@ -1,7 +1,5 @@
 // PART 1: OBJECT DESTRUCTURING
 
-/*
-
 const person = {
     name: 'Willis',
     age: 27,
@@ -41,7 +39,7 @@ const {name: publisherName = "Self-Published"} = book.publisher;
 
 console.log(publisherName);
 
-*/
+
 
 // PART 2: ARRAY DESTRUCTURING
 
