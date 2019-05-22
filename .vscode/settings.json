@@ -1,2 +1,12 @@
 {
+    // Set the default
+    "editor.formatOnSave": true,
+    // Enable per-language
+    "[javascript]": {
+        "editor.formatOnSave": true
+    },
+    "prettier.printWidth": 120,
+    "prettier.tabWidth": 4,
+    "prettier.arrowParens": "always",
+    "editor.rulers": [120]
 }
